@@ -1,0 +1,29 @@
+{
+  "name": "typed-node-template",
+  "version": "0.0.1",
+  "description": "Bootstrap new nodejs typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts",
+    "prebuild": "npm run lint:fix && rm -rf ./dist",
+    "build": "tsc",
+    "start": "node dist/src/index",
+    "pretest": "npm run build",
+    "test": "mocha dist/test/**/*.js"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/lodash": "^4.14.182",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^17.0.35",
+    "@types/sinon": "^10.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "chai": "^4.3.6",
+    "eslint": "^8.16.0",
+    "mocha": "^10.0.0",
+    "sinon": "^14.0.0",
+    "typescript": "^4.6.4"
+  }
+}
