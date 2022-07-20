@@ -1,4 +1,4 @@
-# YLD Coding Challenge
+# TypeScript NodeJS quick start template
 
 This challenge was written in TypeScript for the NodeJs runtime:
 
@@ -14,7 +14,7 @@ $ npm -v
 1. After downloading the source code:
 
 ```bash
-$ cd yld-challenge
+$ cd typed-node-template
 ```
 
 2. Install the web project dependencies and compile the source code:
@@ -31,9 +31,3 @@ To run the software:
 ```bash
 $ npm start
 ```
-
-By default the start script will execute the test files.
-
-Those files should contain the execution rules and descriptions.
-
-The tests can always be executed directly with `npm test`.
