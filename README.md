@@ -1,6 +1,6 @@
 # TypeScript NodeJS quick start template
 
-This challenge was written in TypeScript for the NodeJs runtime:
+This project is built for the following NodeJs runtime:
 
 ```bash
 $ node -v
