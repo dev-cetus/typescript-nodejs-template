@@ -1,10 +1,11 @@
 on:
-  push:
-    branches:
-      - main
+  pull_request_target:
+    types:
+      - closed
 name: release-please
 jobs:
-  release-please:
+  if_merged:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
