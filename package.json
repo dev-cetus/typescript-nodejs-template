@@ -1,6 +1,6 @@
 {
   "name": "typed-node-template",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Bootstrap new nodejs typescript projects",
   "main": "index.js",
   "engines": {
