@@ -12,7 +12,7 @@
     "clean:modules": "rm -rf ./node_modules",
     "clean": "npm run clean:dist && npm run clean:modules",
     "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint --fix src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts && eslint --fix test/**/*.ts",
     "prebuild": "npm run lint:fix && npm run clean:dist",
     "build": "tsc",
     "start": "node dist/src/index",
