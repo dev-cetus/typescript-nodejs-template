@@ -1,7 +1,7 @@
 export class Foo {
-    constructor(private N: number) {}
+  constructor(private N: number) {}
 
-    public getSize() {
-        return this.N;
-    }
+  public getSize() {
+    return this.N;
+  }
 }
