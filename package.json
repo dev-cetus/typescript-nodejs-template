@@ -1,6 +1,6 @@
 {
   "name": "nodejs-typescript-app",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Bootstrap new nodejs typescript projects",
   "main": "index.js",
   "engines": {

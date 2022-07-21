@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/allisonmachado/create-typescript-app/compare/v0.1.0...v0.2.0) (2022-07-21)
+
+
+### Features
+
+* update compiler options ([#7](https://github.com/allisonmachado/create-typescript-app/issues/7)) ([af51a85](https://github.com/allisonmachado/create-typescript-app/commit/af51a8565ccc7f9ed146fa2168b8a094d17f1fdc))
+
 ## [0.1.0](https://github.com/allisonmachado/typed-node-template/compare/v0.0.1...v0.1.0) (2022-07-20)
 
 
