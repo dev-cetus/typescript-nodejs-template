@@ -1,6 +1,6 @@
-# TypeScript NodeJS quick start template
+# Runtime
 
-This project is built for the following NodeJs runtime:
+This project is built for the following NodeJs version:
 
 ```bash
 $ node -v
@@ -11,13 +11,7 @@ $ npm -v
 
 ## Installation
 
-1. After downloading the source code:
-
-```bash
-$ cd typed-node-template
-```
-
-2. Install the web project dependencies and compile the source code:
+Install the web project dependencies and compile the source code:
 
 ```bash
 $ npm install

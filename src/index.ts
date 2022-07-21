@@ -1,5 +1,3 @@
-export const main = () => 'Hello World';
+export const main = (): string => 'Hello World';
 
-if (require.main === module) {
-  console.log(main()); // tslint:disable-line
-}
+console.log(main());
