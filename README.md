@@ -1,27 +1,9 @@
-# Runtime
+# Typescript Nodejs Template
 
-This project is built for the following NodeJs version:
+This is the template used by [create-typescript-application](https://www.npmjs.com/package/create-typescript-application).
 
-```bash
-$ node -v
-v16.15.0
-$ npm -v
-8.5.5
-```
+To quickly create a new Typescript application for the NodeJS runtime: 
 
-## Installation
-
-Install the web project dependencies and compile the source code:
-
-```bash
-$ npm install
-$ npm run build
-```
-
-## Execution
-
-To run the software:
-
-```bash
-$ npm start
+```sh
+npx create-typescript-application
 ```
