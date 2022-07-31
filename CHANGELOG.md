@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.2.0...v0.2.1) (2022-07-31)
+
+
+### Bug Fixes
+
+* improvements on package, vscode settings and .spec ([#14](https://github.com/allisonmachado/typescript-nodejs-template/issues/14)) ([7530541](https://github.com/allisonmachado/typescript-nodejs-template/commit/75305415652320a316d8324a18e48c415f701702))
+
 ## [0.2.0](https://github.com/allisonmachado/create-typescript-app/compare/v0.1.0...v0.2.0) (2022-07-21)
 
 
