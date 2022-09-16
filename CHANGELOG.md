@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.2.1...v0.3.0) (2022-09-16)
+
+
+### Features
+
+* general improvements on debugger integration, linter and git ([#16](https://github.com/allisonmachado/typescript-nodejs-template/issues/16)) ([49b966a](https://github.com/allisonmachado/typescript-nodejs-template/commit/49b966aa77cefabba5c5bc660557d1aa7b86ae5c))
+
 ## [0.2.1](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.2.0...v0.2.1) (2022-07-31)
 
 
