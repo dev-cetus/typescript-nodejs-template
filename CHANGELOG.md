@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.0](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.3.0...v0.4.0) (2022-11-09)
+
+
+### Features
+
+* add watch test mode ([6a942e2](https://github.com/allisonmachado/typescript-nodejs-template/commit/6a942e2ff1825c35971c183b2e02ada5a87235e5))
+* install ts-node-dev for development process ([4cb44b9](https://github.com/allisonmachado/typescript-nodejs-template/commit/4cb44b90126b7e387d0a49f218b59a815ccb0557))
+
+
+### Bug Fixes
+
+* use rimraf in clean scripts ([e6d0dfe](https://github.com/allisonmachado/typescript-nodejs-template/commit/e6d0dfe52b16fbcfcf26dd03339e2f3779982937))
+
 ## [0.3.0](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.2.1...v0.3.0) (2022-09-16)
 
 
