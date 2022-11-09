@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.4.0...v0.4.1) (2022-11-09)
+
+
+### Bug Fixes
+
+* add ts-node-dev dependency and script ([27d5269](https://github.com/allisonmachado/typescript-nodejs-template/commit/27d5269973937fedb1423fb3836b6f6ae0d907b7))
+
 ## [0.4.0](https://github.com/allisonmachado/typescript-nodejs-template/compare/v0.3.0...v0.4.0) (2022-11-09)
 
 
