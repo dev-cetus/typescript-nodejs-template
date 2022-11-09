@@ -4,12 +4,12 @@
   "description": "Bootstrap new nodejs typescript projects",
   "main": "index.js",
   "scripts": {
-    "clean:dist": "rm -rf ./dist",
-    "clean:modules": "rm -rf ./node_modules",
+    "clean:dist": "rimraf ./dist",
+    "clean:modules": "rimraf ./node_modules",
     "clean": "npm run clean:dist && npm run clean:modules",
     "lint": "npx eslint src/**/*.ts",
     "lint:fix": "npx eslint --fix src/**/*.ts && npx eslint --fix test/**/*.ts",
-    "prebuild": "npm run lint:fix && npm run clean:dist",
+    "prebuild": "npm run clean:dist",
     "build": "tsc",
     "start": "node dist/src/index",
     "pretest": "npm run build",
@@ -27,6 +27,7 @@
     "chai": "^4.3.7",
     "eslint": "^8.27.0",
     "mocha": "^10.1.0",
+    "rimraf": "^3.0.2",
     "sinon": "^14.0.2",
     "typescript": "^4.8.4"
   }
