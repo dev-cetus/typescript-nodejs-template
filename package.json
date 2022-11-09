@@ -12,9 +12,9 @@
     "prebuild": "npm run clean:dist",
     "build": "tsc",
     "start": "node dist/src/index",
+    "start:dev": "tsnd --respawn ./src/index.ts",
     "pretest": "npm run build",
-    "test": "mocha dist/test/**/*.js",
-    "local": "npm run build && npm start"
+    "test": "mocha dist/test/**/*.js"
   },
   "devDependencies": {
     "@types/chai": "^4.3.4",
