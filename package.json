@@ -6,32 +6,26 @@
   "scripts": {
     "clean:dist": "rimraf ./dist",
     "clean:modules": "rimraf ./node_modules",
-    "clean": "npm run clean:dist && npm run clean:modules",
-    "lint": "npx eslint src/**/*.ts",
+    "clean": "gts clean",
+    "lint": "gts lint",
     "lint:fix": "npx eslint --fix src/**/*.ts && npx eslint --fix test/**/*.ts",
     "prebuild": "npm run clean:dist",
     "build": "tsc",
     "start": "node dist/src/index",
     "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "pretest": "npm run build",
+    "pretest": "npm.cmd run compile",
     "test": "mocha dist/test/**/*.js",
-    "test:dev": "ts-mocha test/**/*.spec.ts -w --watch-files '**/*.ts'"
+    "test:dev": "ts-mocha test/**/*.spec.ts -w --watch-files '**/*.ts'",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm.cmd run compile",
+    "posttest": "npm.cmd run lint"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.4",
-    "@types/lodash": "^4.14.188",
-    "@types/mocha": "^10.0.0",
-    "@types/node": "^18.11.9",
-    "@types/sinon": "^10.0.13",
-    "@typescript-eslint/eslint-plugin": "^5.42.1",
-    "@typescript-eslint/parser": "^5.42.1",
-    "chai": "^4.3.7",
-    "eslint": "^8.27.0",
-    "mocha": "^10.1.0",
-    "rimraf": "^3.0.2",
-    "sinon": "^14.0.2",
-    "ts-mocha": "^10.0.0",
+    "@types/lodash": "^4.14.199",
+    "@types/node": "20.8.2",
+    "gts": "^5.2.0",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^4.8.4"
+    "typescript": "~5.2.0"
   }
 }

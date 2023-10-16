@@ -1,3 +1,14 @@
-export const main = (): string => 'Hello World';
+class Greeter {
+  private greeting: string;
 
-console.log(main());
+  constructor(message: string) {
+    this.greeting = message;
+  }
+
+  public greet() {
+    return `Hello, ${this.greeting}!`;
+  }
+}
+
+const greeter = new Greeter('world');
+console.log(greeter.greet());
