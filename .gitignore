@@ -133,6 +133,11 @@ dist
 
 # Build distribution directory
 dist/
+build/
 
 # Pnpm
 pnpm-lock.yaml
+
+# ide
+.vscode
+.idea
